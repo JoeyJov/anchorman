@@ -8,4 +8,6 @@ $(document).ready(function() {
 	/* slider code */
 	$('.slider').slider({full_width: true});
 
+	/* sidenav code */
+	$(".button-collapse").sideNav();
 });
