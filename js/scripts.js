@@ -10,4 +10,5 @@ $(document).ready(function() {
 
 	/* sidenav code */
 	$(".button-collapse").sideNav();
+
 });

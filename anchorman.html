@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- animateCSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 	<!-- personal stylesheet -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -13,13 +15,13 @@
 	<main><!-- Start main area -->
     <nav><!-- start nav -->
       <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo">Anchorman</a>
+        <a href="#!" class="brand-logo animated zoomInRight wow" data-wow-delay=".1s">Anchorman</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li class="waves-effect waves-blue"><a href="#cast">Cast</a></li>
-            <li class="waves-effect waves-blue"><a href="#reviews">Reviews</a></li>
-            <li class="waves-effect waves-blue"><a href="#buy">Buy</a></li>
-            <li class="waves-effect waves-blue"><a href="#"><i class="material-icons">search</i></a></li>
+            <li class="waves-effect waves-blue animated zoomInLeft wow" data-wow-delay="1s"><a href="#cast">Cast</a></li>
+            <li class="waves-effect waves-blue animated zoomInLeft wow"data-wow-delay=".7s"><a href="#reviews">Reviews</a></li>
+            <li class="waves-effect waves-blue animated zoomInLeft wow" data-wow-delay=".4s"><a href="#buy">Buy</a></li>
+            <li class="waves-effect waves-blue animated zoomInLeft wow" data-wow-delay=".1s"><a href="#"><i class="material-icons">search</i></a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li class="waves-effect waves-blue"><a href="#cast">Cast</a></li>
@@ -276,6 +278,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!-- Materialize script -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <!-- wow scripts -->
+  <script src="js/wow.js"></script>
 	<!-- personal script -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
